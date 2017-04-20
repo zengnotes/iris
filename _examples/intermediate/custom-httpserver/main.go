@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/httprouter"
 )
 
 func main() {

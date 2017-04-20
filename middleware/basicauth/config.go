@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"gopkg.in/kataras/iris.v6"
+	"github.com/zengnotes/iris"
 )
 
 const (

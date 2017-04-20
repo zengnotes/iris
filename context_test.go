@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/iris-contrib/httpexpect"
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/httprouter"
+	"github.com/zengnotes/iris/httptest"
 )
 
 // White-box testing *

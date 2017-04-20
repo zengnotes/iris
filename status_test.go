@@ -3,10 +3,10 @@ package iris_test
 import (
 	"testing"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/gorillamux"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/gorillamux"
+	"github.com/zengnotes/iris/adaptors/httprouter"
+	"github.com/zengnotes/iris/httptest"
 )
 
 func testStatusErrors(routerPolicy iris.Policy, t *testing.T) {

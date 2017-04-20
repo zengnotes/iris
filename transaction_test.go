@@ -1,8 +1,8 @@
 package iris_test
 
 import (
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/httptest"
 
 	"testing"
 )

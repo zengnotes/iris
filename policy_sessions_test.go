@@ -6,10 +6,10 @@ import (
 	// At this test code we use the gorilla's securecookie library:
 	"github.com/gorilla/securecookie"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/adaptors/sessions"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/httprouter"
+	"github.com/zengnotes/iris/adaptors/sessions"
+	"github.com/zengnotes/iris/httptest"
 )
 
 func TestSessions(t *testing.T) {

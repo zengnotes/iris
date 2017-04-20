@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"gopkg.in/kataras/iris.v6"
+	"github.com/zengnotes/iris"
 )
 
 // Server is the websocket server,

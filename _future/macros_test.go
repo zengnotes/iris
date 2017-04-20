@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/httprouter"
+	"github.com/zengnotes/iris/httptest"
 )
 
 // No, better to have simple functions, it will be easier for users to understand

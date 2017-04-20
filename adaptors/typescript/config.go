@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"gopkg.in/kataras/iris.v6/adaptors/typescript/npm"
+	"github.com/zengnotes/iris/adaptors/typescript/npm"
 )
 
 var (

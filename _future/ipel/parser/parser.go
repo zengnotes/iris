@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/kataras/iris.v6/_future/ipel/ast"
-	"gopkg.in/kataras/iris.v6/_future/ipel/lexer"
-	"gopkg.in/kataras/iris.v6/_future/ipel/token"
+	"github.com/zengnotes/iris/_future/ipel/ast"
+	"github.com/zengnotes/iris/_future/ipel/lexer"
+	"github.com/zengnotes/iris/_future/ipel/token"
 )
 
 type Parser struct {

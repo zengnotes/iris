@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/adaptors/view"
-	"gopkg.in/kataras/iris.v6/adaptors/websocket"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/adaptors/httprouter"
+	"github.com/zengnotes/iris/adaptors/view"
+	"github.com/zengnotes/iris/adaptors/websocket"
 )
 
 /* Native messages no need to import the iris-ws.js to the ./templates.client.html

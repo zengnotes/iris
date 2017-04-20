@@ -4,14 +4,14 @@ package cors
 //  | Cors wrapper usage                                         |
 //  +------------------------------------------------------------+
 //
-// import "gopkg.in/kataras/iris.v6/adaptors/cors"
+// import "github.com/zengnotes/iris/adaptors/cors"
 //
 // app := iris.New()
 // app.Adapt(cors.New(cors.Options{})))
 
 import (
 	"github.com/rs/cors"
-	"gopkg.in/kataras/iris.v6"
+	"github.com/zengnotes/iris"
 )
 
 // Options is a configuration container to setup the CORS.

@@ -972,9 +972,9 @@ Edit your main .go source file to adapt one of these and restart your app.
 	i.e: lines (<---) were missing.
 	-------------------------------------------------------------------
 	import (
-		"gopkg.in/kataras/iris.v6"
-		"gopkg.in/kataras/iris.v6/adaptors/httprouter" // or gorillamux
-		"gopkg.in/kataras/iris.v6/adaptors/view" // <--- this line
+		"github.com/zengnotes/iris"
+		"github.com/zengnotes/iris/adaptors/httprouter" // or gorillamux
+		"github.com/zengnotes/iris/adaptors/view" // <--- this line
 	)
 
 	func main(){

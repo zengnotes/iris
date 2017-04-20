@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/iris-contrib/httpexpect"
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/zengnotes/iris"
+	"github.com/zengnotes/iris/httptest"
 )
 
 func getRandomNumber(min int, max int) int {
